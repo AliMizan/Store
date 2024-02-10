@@ -53,11 +53,13 @@ export default function Home() {
                   {<perk.Icon className="w-1/3 h-1/3 "/>}
                 </div>
               </div>
-              <div className="mt-6 md:ml-4 md:mt-0 lg:ml-0 lg:mt-6 " >
+              <div className="mt-3 md:ml-4 md:mt-0 lg:ml-0 lg:mt-6 " >
                 <h2 className="text-base font-medium text-gray-900 justify-center text-center" >
                   {perk.name}
                 </h2>
-                <p className="mt-3 text-sm text-muted-foreground justify-center text-center" >{perk.description}</p>
+                <p className="mt-2 pb-10 text-sm text-muted-foreground justify-center text-center" >
+                  {perk.description}
+                </p>
               </div>
             </div>
           ))}
